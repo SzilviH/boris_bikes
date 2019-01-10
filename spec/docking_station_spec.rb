@@ -33,6 +33,10 @@ describe DockingStation do
     end
   end
 
+it "docking station should take 12 argument for capacity and equal 12" do
+  station = DockingStation.new(12)
+  expect(station.capacity).to eq(12)
+end
 
 
 end
